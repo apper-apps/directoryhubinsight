@@ -37,7 +37,7 @@ export const directoryService = {
     };
   },
 
-  async create(directoryData) {
+async create(directoryData) {
     await delay(400);
     const newDirectory = {
       ...directoryData,

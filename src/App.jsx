@@ -13,9 +13,10 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+<Route path="/" element={<Dashboard />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/directories" element={<DirectoryManager />} />
+        <Route path="/directories/new" element={<DirectoryEditor />} />
         <Route path="/directories/:id/edit" element={<DirectoryEditor />} />
         <Route path="/browse" element={<Browse />} />
         <Route path="/directory/:slug" element={<PublicDirectory />} />
