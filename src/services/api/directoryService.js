@@ -37,10 +37,10 @@ export const directoryService = {
     };
   },
 
-async create(directoryData) {
+async create(newDirectoryData) {
     await delay(400);
     const newDirectory = {
-      ...directoryData,
+      ...newDirectoryData,
       Id: Math.max(...directoryData.map(d => d.Id)) + 1,
       createdAt: new Date().toISOString().split('T')[0],
       status: "draft",
