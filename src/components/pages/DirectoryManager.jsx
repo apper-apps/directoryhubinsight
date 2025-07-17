@@ -10,6 +10,7 @@ import SearchBar from "@/components/molecules/SearchBar";
 import Card from "@/components/atoms/Card";
 import Button from "@/components/atoms/Button";
 import { directoryService } from "@/services/api/directoryService";
+
 const DirectoryManager = () => {
   const navigate = useNavigate();
   const [directories, setDirectories] = useState([]);
@@ -54,11 +55,10 @@ const handleCreateDirectory = () => {
     }
   };
 
-  const filteredDirectories = directories.filter(directory =>
-    directory.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    directory.description.toLowerCase().includes(searchQuery.toLowerCase())
+const filteredDirectories = directories.filter(directory =>
+    directory?.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    directory?.description?.toLowerCase().includes(searchQuery.toLowerCase())
   );
-
   if (loading) return <Loading />;
   if (error) return <Error message={error} onRetry={loadDirectories} />;
 
@@ -141,7 +141,7 @@ const handleCreateDirectory = () => {
               icon: "Wrench",
               color: "from-purple-500 to-purple-600"
             }
-          ].map((template) => (
+].map((template) => (
             <Card key={template.name} hover className="p-6">
               <div className="text-center">
                 <div className={`inline-flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br ${template.color} text-white mb-4`}>
@@ -160,7 +160,6 @@ const handleCreateDirectory = () => {
             </Card>
           ))}
         </div>
-</div>
       </div>
 
       {/* Directory Creation Modal */}
