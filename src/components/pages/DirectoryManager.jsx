@@ -169,8 +169,9 @@ const filteredDirectories = directories.filter(directory =>
           onSubmit={handleCreateSubmit}
           loading={creating}
         />
-      )}
+)}
     </div>
+  );
 };
 
 // Directory Creation Modal Component
@@ -356,4 +357,6 @@ const DirectoryCreationModal = ({ onClose, onSubmit, loading }) => {
     </div>
   );
 };
+
+export { DirectoryCreationModal };
 export default DirectoryManager;
