@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "name": "Local Business Directory",
+    "slug": "local-business-directory",
+    "description": "Discover the best local businesses in your area. From restaurants to services, find everything you need in one place.",
+    "status": "active",
+    "views": 2847,
+    "createdAt": "2024-01-15",
+    "contactEmail": "admin@localbusiness.com",
+    "websiteUrl": "https://localbusiness.com",
+    "category": "business"
+  },
+  {
+    "Id": 2,
+    "name": "Restaurant Guide",
+    "slug": "restaurant-guide",
+    "description": "The ultimate guide to dining out. Find the best restaurants, cafes, and food trucks in your city.",
+    "status": "active",
+    "views": 1923,
+    "createdAt": "2024-02-03",
+    "contactEmail": "info@restaurantguide.com",
+    "websiteUrl": "https://restaurantguide.com",
+    "category": "restaurant"
+  },
+  {
+    "Id": 3,
+    "name": "Tech Startup Directory",
+    "slug": "tech-startup-directory",
+    "description": "Explore innovative tech startups and companies. Connect with the next generation of technology leaders.",
+    "status": "active",
+    "views": 1456,
+    "createdAt": "2024-02-20",
+    "contactEmail": "hello@techstartups.com",
+    "websiteUrl": "https://techstartups.com",
+    "category": "tech"
+  },
+  {
+    "Id": 4,
+    "name": "Health & Wellness Providers",
+    "slug": "health-wellness-providers",
+    "description": "Find trusted health and wellness professionals in your area. From doctors to fitness trainers.",
+    "status": "active",
+    "views": 987,
+    "createdAt": "2024-03-10",
+    "contactEmail": "support@healthwellness.com",
+    "websiteUrl": "https://healthwellness.com",
+    "category": "health"
+  },
+  {
+    "Id": 5,
+    "name": "Professional Services",
+    "slug": "professional-services",
+    "description": "Connect with professional service providers including lawyers, accountants, consultants, and more.",
+    "status": "draft",
+    "views": 234,
+    "createdAt": "2024-03-25",
+    "contactEmail": "info@professionalservices.com",
+    "websiteUrl": "https://professionalservices.com",
+    "category": "services"
+  },
+  {
+    "Id": 6,
+    "name": "Event Venues Directory",
+    "slug": "event-venues-directory",
+    "description": "Find the perfect venue for your next event. Wedding halls, conference centers, and unique spaces.",
+    "status": "active",
+    "views": 1678,
+    "createdAt": "2024-04-05",
+    "contactEmail": "bookings@eventvenues.com",
+    "websiteUrl": "https://eventvenues.com",
+    "category": "services"
+  }
+]

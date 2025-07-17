@@ -1,0 +1,156 @@
+[
+  {
+    "Id": 1,
+    "name": "Restaurants",
+    "slug": "restaurants",
+    "directoryId": 1,
+    "order": 1
+  },
+  {
+    "Id": 2,
+    "name": "Retail Stores",
+    "slug": "retail-stores",
+    "directoryId": 1,
+    "order": 2
+  },
+  {
+    "Id": 3,
+    "name": "Services",
+    "slug": "services",
+    "directoryId": 1,
+    "order": 3
+  },
+  {
+    "Id": 4,
+    "name": "Healthcare",
+    "slug": "healthcare",
+    "directoryId": 1,
+    "order": 4
+  },
+  {
+    "Id": 5,
+    "name": "Fine Dining",
+    "slug": "fine-dining",
+    "directoryId": 2,
+    "order": 1
+  },
+  {
+    "Id": 6,
+    "name": "Casual Dining",
+    "slug": "casual-dining",
+    "directoryId": 2,
+    "order": 2
+  },
+  {
+    "Id": 7,
+    "name": "Fast Food",
+    "slug": "fast-food",
+    "directoryId": 2,
+    "order": 3
+  },
+  {
+    "Id": 8,
+    "name": "Cafes",
+    "slug": "cafes",
+    "directoryId": 2,
+    "order": 4
+  },
+  {
+    "Id": 9,
+    "name": "SaaS",
+    "slug": "saas",
+    "directoryId": 3,
+    "order": 1
+  },
+  {
+    "Id": 10,
+    "name": "Fintech",
+    "slug": "fintech",
+    "directoryId": 3,
+    "order": 2
+  },
+  {
+    "Id": 11,
+    "name": "Healthcare Tech",
+    "slug": "healthcare-tech",
+    "directoryId": 3,
+    "order": 3
+  },
+  {
+    "Id": 12,
+    "name": "AI & Machine Learning",
+    "slug": "ai-machine-learning",
+    "directoryId": 3,
+    "order": 4
+  },
+  {
+    "Id": 13,
+    "name": "Doctors",
+    "slug": "doctors",
+    "directoryId": 4,
+    "order": 1
+  },
+  {
+    "Id": 14,
+    "name": "Fitness Trainers",
+    "slug": "fitness-trainers",
+    "directoryId": 4,
+    "order": 2
+  },
+  {
+    "Id": 15,
+    "name": "Therapists",
+    "slug": "therapists",
+    "directoryId": 4,
+    "order": 3
+  },
+  {
+    "Id": 16,
+    "name": "Nutritionists",
+    "slug": "nutritionists",
+    "directoryId": 4,
+    "order": 4
+  },
+  {
+    "Id": 17,
+    "name": "Legal Services",
+    "slug": "legal-services",
+    "directoryId": 5,
+    "order": 1
+  },
+  {
+    "Id": 18,
+    "name": "Accounting",
+    "slug": "accounting",
+    "directoryId": 5,
+    "order": 2
+  },
+  {
+    "Id": 19,
+    "name": "Consulting",
+    "slug": "consulting",
+    "directoryId": 5,
+    "order": 3
+  },
+  {
+    "Id": 20,
+    "name": "Wedding Venues",
+    "slug": "wedding-venues",
+    "directoryId": 6,
+    "order": 1
+  },
+  {
+    "Id": 21,
+    "name": "Conference Centers",
+    "slug": "conference-centers",
+    "directoryId": 6,
+    "order": 2
+  },
+  {
+    "Id": 22,
+    "name": "Party Halls",
+    "slug": "party-halls",
+    "directoryId": 6,
+    "order": 3
+  }
+]
